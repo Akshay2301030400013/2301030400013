@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('background.jpg'); /* Ensure the image is in the same folder */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+/* A4 Container */
+.a4-container {
+  width: 210mm;
+  height: 297mm;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Ad Content */
+.ad-container {
+  width: 80%;
+  text-align: center;
+  position: relative;
+}
+
+.text-box {
+  background: linear-gradient(to bottom, #A0DAA9, #9A7DCD);
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  padding: 15px 25px;
+  background-color: #B35A5A;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #953A3A;
+}
